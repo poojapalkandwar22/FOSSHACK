@@ -98,32 +98,32 @@ const dictionary = {
     "fruits": 
     {
         meaning: "फळ, फळांची वनस्पती",
-        images: ["images/fruits1.jpeg"],
-        videos: ["images/fruits.mp4"]
+        images: ["fruits1.jpeg"],
+        videos: ["fruits.mp4"]
     },
     "flowers": 
     {
         meaning: "फुल, फुलांची वनस्पती",
-        images: ["images/Fowers-Names-576x1024.webp"],
-        videos: ["images/flowers.mp4"]
+        images: ["Fowers-Names-576x1024.webp"],
+        videos: ["flowers.mp4"]
     },
     "clothes": 
     {
         meaning: "कपडे, वस्त्र, वस्त्राणि",
-        images: ["images/clothes.jpeg"],
-        videos: ["images/clothes.mp4"]
+        images: ["clothes.jpeg"],
+        videos: ["clothes.mp4"]
     },
     "vegetables":
     {
         meaning: "भाज्या",
-        images: ["images/vegitables.jpeg"],
-        videos: ["images/vegitables.mp4"]
+        images: ["vegitables.jpeg"],
+        videos: ["vegitables.mp4"]
     },
     "animals":
     {
         meaning: "प्राणी",
-        images: ["images/animals.webp"],
-        videos: ["images/animals.mp4"]
+        images: ["animals.webp"],
+        videos: ["animals.mp4"]
     }
     // Add more words and their meanings, images, and videos here
 };
