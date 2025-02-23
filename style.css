@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f8f8f8;
+    background-image: url('https://media.istockphoto.com/id/133313561/photo/book-and-glass-loupe.jpg?s=612x612&w=0&k=20&c=c_-XUrih631ObxQA5ODY5mql_1PqEgfpQJXbG-qODPY=');
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #61be49;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#word {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#meaning {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Media container */
+#media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Images styling */
+#media img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 4 4 5px rgba(36, 34, 34, 0.2);
+    image-orientation: from-image;
+}
+
+/* Video styling */
+#media iframe {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    aspect-ratio: 16/9; /* Ensures proper aspect ratio */
+    border-radius: 5px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #word {
+        font-size: 20px;
+    }
+
+    #meaning {
+        font-size: 16px;
+    }
+}
